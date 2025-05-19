@@ -32,8 +32,8 @@ def cosine_sim_sparse(v1, v2):
     return numerador / denominador
 
 # Leitura do dataset
-arquivo = r"C:\Users\Antônio\Downloads\data\data.csv"
-df = pd.read_csv(arquivo)
+url = "https://raw.githubusercontent.com/lordeMD/Projetos_Algebra/refs/heads/main/data.csv"
+df = pd.read_csv(url)
 
 # Preenchendo valores nulos
 df['description'] = df['description'].fillna('')
