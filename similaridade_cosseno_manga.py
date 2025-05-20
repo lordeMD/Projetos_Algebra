@@ -94,8 +94,3 @@ else:
     for i, res in enumerate(recomendacoes, 1):
         print(f"{i}. Título - {res['title']}")
         print(f"     Ângulo: {res['angulo']}° | Similaridade: {res['similaridade']}\n")
-
-print(f"\n  Recomendações similares a: {entrada}\n")
-for i, res in enumerate(recomendacoes, 1):
-    print(f"{i}. Titulo - {res['title']}")
-    print(f"     Ângulo: {res['angulo']}° | Similaridade: {res['similaridade']}\n")
